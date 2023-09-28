@@ -34,4 +34,5 @@ def agregar_reserva():
 
 if __name__ == '__main__':
     # Iniciar el servidor de desarrollo.
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
+
